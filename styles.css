@@ -258,7 +258,7 @@ a {
 
 .hero-text {
   max-width: 560px;
-  margin-left: clamp(24px, 8vw, 120px);
+  margin-left: clamp(20px, 6vw, 90px);
 }
 
 .hero-intro-line {
