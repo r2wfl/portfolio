@@ -8,8 +8,10 @@
       name="description"
       content="Indrajit Mondal helps businesses turn scattered ideas into clear systems, structured workflows, Notion workspaces, and premium digital experiences."
     />
+    <meta name="theme-color" content="#030303" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="image" href="public/video/hero-animation.gif" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
@@ -43,6 +45,11 @@
             src="public/video/hero-animation.gif"
             alt=""
             aria-hidden="true"
+            width="1440"
+            height="900"
+            loading="eager"
+            decoding="async"
+            fetchpriority="high"
           />
         </div>
         <div class="hero-bg-overlay"></div>
@@ -59,10 +66,6 @@
                 structured workflows, Notion workspaces, and premium digital
                 experiences.
               </p>
-              <div class="hero-actions">
-                <a class="btn btn-primary" href="#contact">Start a Project</a>
-                <a class="btn btn-secondary" href="#projects">View Featured Builds</a>
-              </div>
               <div class="hero-meta">
                 <div class="hero-stat-card">
                   <span class="hero-stat-number">2+</span>
@@ -85,93 +88,76 @@
       <section class="skills-section section" id="skills">
         <div class="container">
           <div class="skills-panel">
-            <div class="skills-copy">
-              <div class="skills-intro-pill">
-                <span class="hero-icon"></span>
-                <span>Skills</span>
-              </div>
-              <h2>Websites,<br />systems,<br />and workflows.</h2>
-              <p>
-                I build premium websites, structured systems, and AI-powered
-                workflows with a strong focus on clarity, speed, and usability.
-              </p>
-            </div>
-            <div class="skills-visual">
+            <div class="skills-bg-visual">
               <img
                 src="public/video/skills-visual.gif"
                 alt=""
                 aria-hidden="true"
+                width="1400"
+                height="900"
+                loading="lazy"
+                decoding="async"
               />
             </div>
-          </div>
-          <div class="skill-cards-grid">
-            <article class="skill-card">
-              <span class="skill-number">01</span>
-              <h3>Digital Systemizing</h3>
-              <p>
-                Turning scattered ideas, workflows, and content into clear
-                digital structures that are easier to understand, use, and
-                improve.
-              </p>
-            </article>
-            <article class="skill-card">
-              <span class="skill-number">02</span>
-              <h3>AI-Assisted Website Building</h3>
-              <p>
-                Creating clean portfolio sites, landing pages, and modern web
-                experiences using AI-supported building workflows and fast
-                iteration.
-              </p>
-            </article>
-            <article class="skill-card">
-              <span class="skill-number">03</span>
-              <h3>Vibe Coding</h3>
-              <p>
-                Using prompts, AI tools, feedback loops, and visual judgment to
-                move from idea to working output without overcomplicating the
-                process.
-              </p>
-            </article>
-            <article class="skill-card">
-              <span class="skill-number">04</span>
-              <h3>AI Automation</h3>
-              <p>
-                Designing practical automations, smarter workflows, and more
-                efficient systems that save time without losing clarity.
-              </p>
-            </article>
-            <article class="skill-card">
-              <span class="skill-number">05</span>
-              <h3>Notion Systems</h3>
-              <p>
-                Designing dashboards, trackers, CRMs, project systems, habit
-                systems, productivity hubs, and structured workspaces.
-              </p>
-            </article>
-            <article class="skill-card">
-              <span class="skill-number">06</span>
-              <h3>AI Workflow Concepts</h3>
-              <p>
-                Exploring practical workflows for booking, communication,
-                notifications, content, and business operations.
-              </p>
-            </article>
-            <article class="skill-card">
-              <span class="skill-number">07</span>
-              <h3>Prompting & Build Instructions</h3>
-              <p>
-                Writing detailed prompts and structured instructions that help
-                AI agents create better websites, systems, and workflows.
-              </p>
-            </article>
-            <article class="skill-card">
-              <span class="skill-number">08</span>
-              <h3>B2B Lead Gen</h3>
-              <p>
-                Finding the right signals, audiences, and outreach angles to
-                support smarter business growth and better conversions.
-              </p>
-            </article>
+            <div class="skills-bg-overlay"></div>
+            <div class="skills-content">
+              <div class="skills-copy">
+                <div class="skills-intro-pill">
+                  <span class="hero-icon"></span>
+                  <span>Capabilities</span>
+                </div>
+                <h2>Websites, systems, and workflows.</h2>
+                <p>
+                  I build clean digital systems that turn scattered ideas into
+                  usable, structured experiences.
+                </p>
+              </div>
+              <div class="skill-cards-grid">
+                <article class="skill-card">
+                  <span class="skill-number">01</span>
+                  <h3>Websites</h3>
+                  <p>
+                    Premium responsive websites with clear structure and refined
+                    UI.
+                  </p>
+                </article>
+                <article class="skill-card">
+                  <span class="skill-number">02</span>
+                  <h3>Notion Systems</h3>
+                  <p>
+                    Structured dashboards and workspaces that simplify execution.
+                  </p>
+                </article>
+                <article class="skill-card">
+                  <span class="skill-number">03</span>
+                  <h3>Workflow Design</h3>
+                  <p>
+                    Turning scattered processes into clean, usable systems.
+                  </p>
+                </article>
+                <article class="skill-card">
+                  <span class="skill-number">04</span>
+                  <h3>Automation</h3>
+                  <p>
+                    AI-assisted workflows that save time and reduce manual work.
+                  </p>
+                </article>
+                <article class="skill-card">
+                  <span class="skill-number">05</span>
+                  <h3>Research Structure</h3>
+                  <p>
+                    Organizing ideas and information into clear decision systems.
+                  </p>
+                </article>
+                <article class="skill-card">
+                  <span class="skill-number">06</span>
+                  <h3>Prompt Systems</h3>
+                  <p>
+                    Building prompt logic that produces more useful outputs.
+                  </p>
+                </article>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -196,6 +182,10 @@
                 src="public/video/process.jpg"
                 alt=""
                 aria-hidden="true"
+                width="1200"
+                height="820"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           </div>
@@ -236,6 +226,10 @@
                 src="public/video/about.jpg"
                 alt=""
                 aria-hidden="true"
+                width="1200"
+                height="900"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div class="about-bg-overlay"></div>
@@ -247,82 +241,22 @@
                 </div>
                 <h2>I’m Indrajit Mondal, a digital systemizer.</h2>
                 <p>
-                  I’m Indrajit Mondal, a digital systemizer focused on AI-assisted
-                  websites, Notion systems, workflow concepts, and research-driven
-                  digital structures. I like taking messy ideas and turning them
-                  into clear, usable, and visually polished systems.
+                  I’m Indrajit Mondal, a digital systemizer focused on turning
+                  scattered ideas into clean websites, structured workflows, and
+                  usable digital systems.
                 </p>
                 <p>
-                  My work combines systems thinking, prompt writing, visual
-                  judgment, and fast iteration. I use AI tools to build faster,
-                  but I still focus on structure, readability, responsiveness, and
-                  practical usefulness.
+                  My work blends AI-assisted building, systems thinking, prompt
+                  writing, and visual judgment. I care about making things look
+                  polished, but more importantly, making them clear, responsive,
+                  and useful.
+                </p>
+                <p>
+                  Whether it’s a website, Notion system, workflow, or digital
+                  structure, my goal is simple: take messy ideas and shape them
+                  into something people can actually use.
                 </p>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="output section">
-        <div class="container">
-          <div class="output-panel">
-            <div class="section-head">
-              <div class="output-intro-pill">
-                <span class="hero-icon"></span>
-                <span>Output</span>
-              </div>
-              <h2>Clean output. Meaningful systems.</h2>
-            </div>
-            <div class="output-grid">
-              <article class="output-card card-focus">
-                <div class="output-visual visual-focus">
-                  <span></span>
-                  <span></span>
-                  <div class="scanner"></div>
-                </div>
-                <h3>Practical product focus</h3>
-                <p>Built around clarity, usability, and clean execution.</p>
-              </article>
-              <article class="output-card card-workflow">
-                <div class="output-visual visual-workflow">
-                  <svg viewBox="0 0 300 150" aria-hidden="true">
-                    <path d="M20 80 C60 20, 90 20, 130 80 S220 140, 280 40" />
-                    <circle class="node one" cx="20" cy="80" r="4" />
-                    <circle class="node two" cx="130" cy="80" r="4" />
-                    <circle class="node three" cx="280" cy="40" r="4" />
-                  </svg>
-                </div>
-                <h3>Structured workflows</h3>
-                <p>Focused on turning scattered ideas into usable systems.</p>
-              </article>
-              <article class="output-card card-direction">
-                <div class="output-visual visual-direction">
-                  <svg viewBox="0 0 300 150" aria-hidden="true">
-                    <path d="M10 110 Q150 10 290 110" />
-                  </svg>
-                  <div class="shine"></div>
-                </div>
-                <h3>Premium visual direction</h3>
-                <p>Designed to feel polished without losing practical purpose.</p>
-              </article>
-              <article class="output-card card-research">
-                <div class="output-visual visual-research">
-                  <svg viewBox="0 0 300 150" aria-hidden="true">
-                    <path d="M20 40 H80" />
-                    <path d="M110 110 H170" />
-                    <path d="M200 30 H260" />
-                    <circle cx="20" cy="40" r="3" />
-                    <circle cx="110" cy="110" r="3" />
-                    <circle cx="200" cy="30" r="3" />
-                    <circle cx="80" cy="40" r="3" />
-                    <circle cx="170" cy="110" r="3" />
-                    <circle cx="260" cy="30" r="3" />
-                  </svg>
-                </div>
-                <h3>Research-backed thinking</h3>
-                <p>Guided by signals, context, and business-oriented research.</p>
-              </article>
             </div>
           </div>
         </div>
@@ -336,6 +270,10 @@
                 src="public/video/clarity.jpg"
                 alt=""
                 aria-hidden="true"
+                width="1200"
+                height="900"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div class="clarity-bg-overlay"></div>
@@ -350,50 +288,31 @@
                   Clarity comes from systems, not scattered pages, sheets, or
                   disconnected thinking.
                 </p>
+                <div class="clarity-principles">
+                  <article class="clarity-principle">
+                    <span class="clarity-number">01</span>
+                    <div>
+                      <h3>Clarity</h3>
+                      <p>Every idea should become easier to understand.</p>
+                    </div>
+                  </article>
+                  <article class="clarity-principle">
+                    <span class="clarity-number">02</span>
+                    <div>
+                      <h3>Structure</h3>
+                      <p>Good systems need clean hierarchy, flow, and logic.</p>
+                    </div>
+                  </article>
+                  <article class="clarity-principle">
+                    <span class="clarity-number">03</span>
+                    <div>
+                      <h3>Usefulness</h3>
+                      <p>A polished build should also solve a real problem.</p>
+                    </div>
+                  </article>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="clarity-cards-grid">
-            <article class="clarity-card clarity-card-large">
-              <span>01</span>
-              <h3>A grounded approach to clarity and execution.</h3>
-              <p>
-                I start by understanding what needs to be organized, built, or
-                clarified before execution begins.
-              </p>
-            </article>
-            <article class="clarity-card">
-              <span>02</span>
-              <h3>Built for real use</h3>
-              <p>
-                Every system should stay practical, usable, and easy to keep
-                working with after launch.
-              </p>
-            </article>
-            <article class="clarity-card">
-              <span>03</span>
-              <h3>Visual clarity</h3>
-              <p>
-                Strong design helps information feel easier to read, scan, and
-                understand.
-              </p>
-            </article>
-            <article class="clarity-card">
-              <span>04</span>
-              <h3>Smart polish</h3>
-              <p>
-                The final quality comes from cleaner flow, spacing, and careful
-                detail.
-              </p>
-            </article>
-            <article class="clarity-card">
-              <span>05</span>
-              <h3>Practical systems</h3>
-              <p>
-                I build structure so ideas, content, and workflows stay easy to
-                manage over time.
-              </p>
-            </article>
           </div>
         </div>
       </section>
@@ -401,138 +320,216 @@
       <section class="projects section" id="projects">
         <div class="container">
           <div class="projects-layout">
-            <div class="project-panel">
-              <div class="project-panel-image">
+            <div class="projects-panel">
+              <div class="projects-visual">
                 <img
                   src="public/video/projects,jpg.webp"
                   alt=""
                   aria-hidden="true"
+                  width="1400"
+                  height="900"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
-              <div class="project-panel-content">
-                <div class="project-panel-copy">
+              <div class="projects-overlay"></div>
+              <div class="projects-content">
+                <div class="projects-copy">
                   <div class="project-intro-pill">
                     <span class="hero-icon"></span>
                     <span>Projects</span>
                   </div>
                   <h2>Featured builds.</h2>
                   <p class="projects-intro">
-                    A small collection of systems, workflows, and AI-assisted
-                    builds I’m shaping around clarity, automation, and execution.
+                    Selected digital systems, websites, and workflows built with
+                    structure, clarity, and practical use in mind.
                   </p>
-                  <a class="project-panel-button" href="#contact">
-                    <span>Projects</span>
-                    <span class="project-panel-button-icon"></span>
-                  </a>
+                  <div class="project-list">
+                    <a class="project-row" href="#contact">
+                      <div>
+                        <span class="project-type">AI Workflow</span>
+                        <h3>LinkedIn Job Hunter</h3>
+                        <p>Automation system for outreach and pipeline efficiency.</p>
+                      </div>
+                      <span class="project-arrow">↗</span>
+                    </a>
+                    <a class="project-row" href="#contact">
+                      <div>
+                        <span class="project-type">System</span>
+                        <h3>AI Sales System</h3>
+                        <p>Workflow structure for lead capture and conversion.</p>
+                      </div>
+                      <span class="project-arrow">↗</span>
+                    </a>
+                    <a class="project-row" href="#contact">
+                      <div>
+                        <span class="project-type">Automation</span>
+                        <h3>AI Voice Agents</h3>
+                        <p>Conversation logic designed to support repeatable use.</p>
+                      </div>
+                      <span class="project-arrow">↗</span>
+                    </a>
+                    <a class="project-row" href="#contact">
+                      <div>
+                        <span class="project-type">Research</span>
+                        <h3>RAG Agents</h3>
+                        <p>Structured outputs built around context and decision flow.</p>
+                      </div>
+                      <span class="project-arrow">↗</span>
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="project-card-strip">
-              <article class="project-card">
-                <div class="project-card-top">
-                  <span>01</span>
-                  <span class="project-icon">↗</span>
-                </div>
-                <h3>LinkedIn Job Hunter</h3>
-                <span class="project-tag">AI Workflow</span>
-              </article>
-              <article class="project-card">
-                <div class="project-card-top">
-                  <span>02</span>
-                  <span class="project-icon">↗</span>
-                </div>
-                <h3>AI Sales System</h3>
-                <span class="project-tag">System</span>
-              </article>
-              <article class="project-card">
-                <div class="project-card-top">
-                  <span>03</span>
-                  <span class="project-icon">↗</span>
-                </div>
-                <h3>AI Voice Agents</h3>
-                <span class="project-tag">Automation</span>
-              </article>
-              <article class="project-card">
-                <div class="project-card-top">
-                  <span>04</span>
-                  <span class="project-icon">↗</span>
-                </div>
-                <h3>RAG Agents</h3>
-                <span class="project-tag">AI Workflow</span>
-              </article>
-              <article class="project-card">
-                <div class="project-card-top">
-                  <span>05</span>
-                  <span class="project-icon">↗</span>
-                </div>
-                <h3>Notion System for TaskNova</h3>
-                <span class="project-tag">Notion</span>
-              </article>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="cta section" id="contact">
+      <section class="output section">
         <div class="container">
-          <div class="cta-panel">
-            <div class="cta-copy">
-              <h2>Ready to build something memorable?</h2>
-              <p>
-                Let’s turn scattered ideas into clear systems, structured
-                workflows, and premium digital experiences.
-              </p>
-              <div class="hero-actions cta-actions">
-                <a class="btn btn-primary" href="mailto:hello@indrajitmondal.com">Let’s Talk</a>
-                <a class="btn btn-secondary" href="#projects">View Projects</a>
+          <div class="output-panel">
+            <div class="output-orb"></div>
+            <div class="output-content">
+              <div class="output-head">
+                <div class="output-intro-pill">
+                  <span class="hero-icon"></span>
+                  <span>Output</span>
+                </div>
+                <h2>Clean output. Meaningful systems.</h2>
+                <p>
+                  Every build ends with something usable — a clear website,
+                  system, workflow, or structure that can support execution.
+                </p>
+              </div>
+              <div class="output-board">
+                <article class="output-card output-card--large">
+                  <span class="output-card-status">Ready</span>
+                  <h3>Website Experience</h3>
+                  <p>Clean, responsive pages with strong visual hierarchy.</p>
+                </article>
+                <article class="output-card">
+                  <span class="output-card-status">Flow</span>
+                  <h3>Workspace System</h3>
+                  <p>Dashboards and workflows organized for daily use.</p>
+                </article>
+                <article class="output-card">
+                  <span class="output-card-status">Live</span>
+                  <h3>Automation Flow</h3>
+                  <p>Repeatable logic that reduces manual work.</p>
+                </article>
+                <article class="output-card output-card--final">
+                  <span class="output-card-status">Delivered</span>
+                  <h3>Research Map</h3>
+                  <p>Structured insights and clear content direction.</p>
+                </article>
               </div>
             </div>
-            <div class="cta-message">
-              <span>Available for select projects</span>
-              <p>Building systems that make ideas easier to understand and use.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta-section section" id="contact">
+        <div class="container">
+          <div class="final-cta-panel">
+            <div class="final-cta-content">
+              <div class="section-pill">
+                <span></span>
+                Contact
+              </div>
+              <h2>Have an idea that needs structure?</h2>
+              <p>
+                I’ll help turn scattered ideas into clean websites, workflows,
+                and digital systems that are built to be used.
+              </p>
+              <div class="final-cta-actions">
+                <button
+                  type="button"
+                  class="primary-btn"
+                  data-cal-link="neightn-6ccu8l/projects"
+                  data-cal-namespace="projects"
+                  data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
+                >
+                  Start a Project
+                </button>
+                <a class="secondary-btn" href="#projects">View Builds</a>
+              </div>
+            </div>
+            <div class="final-cta-card">
+              <span class="signal-label">Project Signal</span>
+              <h3>Status: Open</h3>
+              <p>Websites · Systems · Workflows</p>
+              <div class="signal-line"></div>
+              <small>Ready to turn the idea into structure.</small>
             </div>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="container footer-grid">
-        <div>
-          <h3>Indrajit Mondal</h3>
-          <p>Digital Systemizer</p>
-          <p class="footer-desc">
-            Helping businesses turn scattered ideas into clear systems,
-            workflows, and premium digital experiences.
-          </p>
-        </div>
-        <div>
-          <span>Navigation</span>
-          <a href="#skills">Skills</a>
-          <a href="#process">Process</a>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-        </div>
-        <div>
-          <span>Systems</span>
-          <a href="#">Notion</a>
-          <a href="#">Workflows</a>
-          <a href="#">Websites</a>
-          <a href="#">Research</a>
-        </div>
-        <div>
-          <span>Contact</span>
-          <a href="mailto:hello@indrajitmondal.com">Email</a>
-          <a href="https://www.linkedin.com/in/indrajit-mondal/" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="#">Let’s Talk</a>
-        </div>
-      </div>
-      <div class="container footer-bottom">
-        <p>© <span id="year"></span> Indrajit Mondal</p>
-        <p><span class="availability-dot"></span> Available for select projects</p>
-      </div>
-    </footer>
+    <script>
+      (function () {
+        if (window.__calEmbedLoaded) return;
+        window.__calEmbedLoaded = true;
 
+        (function (C, A, L) {
+          let p = function (a, ar) {
+            a.q.push(ar);
+          };
+
+          let d = C.document;
+
+          C.Cal =
+            C.Cal ||
+            function () {
+              let cal = C.Cal;
+              let ar = arguments;
+
+              if (!cal.loaded) {
+                cal.ns = {};
+                cal.q = cal.q || [];
+                const script = d.createElement('script');
+                script.src = A;
+                script.async = true;
+                d.head.appendChild(script);
+                cal.loaded = true;
+              }
+
+              if (ar[0] === L) {
+                const api = function () {
+                  p(api, arguments);
+                };
+
+                const namespace = ar[1];
+                api.q = api.q || [];
+
+                if (typeof namespace === 'string') {
+                  cal.ns[namespace] = cal.ns[namespace] || api;
+                  p(cal.ns[namespace], ar);
+                  p(cal, ['initNamespace', namespace]);
+                } else {
+                  p(cal, ar);
+                }
+
+                return;
+              }
+
+              p(cal, ar);
+            };
+        })(window, 'https://app.cal.com/embed/embed.js', 'init');
+
+        window.Cal('init', 'projects', {
+          origin: 'https://app.cal.com'
+        });
+
+        window.Cal.config = window.Cal.config || {};
+        window.Cal.config.forwardQueryParams = true;
+
+        window.Cal.ns.projects('ui', {
+          hideEventTypeDetails: false,
+          layout: 'month_view'
+        });
+      })();
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
